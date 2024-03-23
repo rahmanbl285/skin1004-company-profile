@@ -15,7 +15,7 @@ export default function Hero() {
 
                 {/* Video Hero */}
             <div className="flex justify-center items-center w-full -pr-10 my-7 md:hidden lg:hidden">
-                <video autoPlay className="max-w-full h-auto rounded-3xl drop-shadow-lg border-r-2 border-b-2 border-black/10" controls>
+                <video className="max-w-full h-auto rounded-3xl drop-shadow-lg border-r-2 border-b-2 border-black/10" controls>
                 <source src="https://firebasestorage.googleapis.com/v0/b/company-project-skin1004.appspot.com/o/video-skin1004%2Fbg-skin1004.webm?alt=media&token=f028a7ca-5081-42a6-a441-620be87bb633"
                 type="video/mp4" />
                 </video>
@@ -28,7 +28,7 @@ export default function Hero() {
 
             {/* Video Hero */}
             <div className="flex justify-center items-center w-[60%] max-md:hidden">
-                <video autoPlay loop className="w-[70%] h-auto rounded-3xl drop-shadow-lg border-r-2 border-b-2 border-black/10" controls>
+                <video className="w-[70%] h-auto rounded-3xl drop-shadow-lg border-r-2 border-b-2 border-black/10" controls>
                 <source src="https://firebasestorage.googleapis.com/v0/b/company-project-skin1004.appspot.com/o/video-skin1004%2Fbg-skin1004.webm?alt=media&token=f028a7ca-5081-42a6-a441-620be87bb633"
                 type="video/mp4" />
                 </video>
