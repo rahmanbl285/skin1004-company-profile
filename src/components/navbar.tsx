@@ -68,7 +68,7 @@ export default function NavBar () {
                             <div className="px-2 pt-2 pb-3 text-sm space-y-2 sm:px-3 font-semibold text-[#a8915f] bg-[#ececec]">
                                 <Link href={'/'} className="block">HOME</Link>
                                 <Link href={'/about-us'} className="block">ABOUT US</Link>
-                                <Link href={'/services'} className="block">SERVICES</Link>
+                                <Link href={'/products'} className="block">PRODUCTS</Link>
                                 <Link href={'/our-teams'} className="block">OUR TEAMS</Link>
                             </div>
                         </div>
